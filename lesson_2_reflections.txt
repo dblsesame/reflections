@@ -1,0 +1,9 @@
++ What happens when you initialize a repository? Why do you need to do it?
+
+it creates the meta data directory .git  
+it tells the repository name and other settings but doesn't store file.
+to have a starting point
+
++ How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+provides a buffer area before commit so that we don't have to add all the files in working directory to repository.
