@@ -7,3 +7,28 @@ to have a starting point
 + How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 provides a buffer area before commit so that we don't have to add all the files in working directory to repository.
+
++ How can you use the staging area to make sure you have one commit per logical change?
+
+add files related to one logical change to the staging area then commit
+and then add files related to other logical change at later time and commit separately.
+
++ What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+when you need to make a directional changes across but not ready to set it as the future direction.
+
+- context switching
+- development branch vs production branch
+- working on new features
+
++ How do the diagrams help you visualize the branch structure?
+for each branch we see a diff color and vertical lines 
+
++ What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+there wil be one branch going forward.
+
++ What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+when it merges successfully then it is good.  because it saves time.  but in conflict case it can cause the code not compiles and take extra time.  also the false positive of conflict resolved.
+
