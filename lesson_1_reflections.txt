@@ -1,39 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
 
-so mac comes with diff
-diff -u is an useful option
-att blocks the installation of window git...
+	instead of eyeballing, the differences are listed out.  
 
-google doc built-in version control
+	so mac comes with diff windows use fc
+
+	diff -u is an useful option but without it I spotted the different faster in the example.
+
+	google doc built-in version control
 
 + How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 
-it is easier to debug.  by comparing the buggy version and the last working one you can examine the changes and narrows down the possible causes
+	it is easier to debug.  by comparing the buggy version and the last working one you can examine the changes and narrows down the possible causes
 
-git is from linux again 
+	git is from linux again 
 
-- commits
+	- commits
 
-concept map - type of part of
+	concept map - type of part of
 
 + What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
 
-manual commit risks waiting too long and lost the change accidentally.
-often when we are in the middle of work we don't bother to stop and save
+	manual commit risks waiting too long and lost the change accidentally.
+	often when we are in the middle of work we don't bother to stop and save
 
 + Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
 
-because source code are often inter-related
+	because source code are often inter-related
 
 + How can you use the commands git log and git diff to view the history of files?
 
-git log display all the commits history of the files in current directory.
+	git log display all the commits history of the files in current directory.
 
-git diff compares 2 version by the commit ids.
+	git diff compares 2 version by the commit ids.
 
 + How might using version control make you more confident to make changes that could break something?
 
-since everything has a copy, even if I break something, I can always go back to the last good version.
+	since everything has a copy, even if I break something, I can always go back to the last good version.
 
 + Now that you have your workspace set up, what do you want to try using Git for?
 
-some source code or this reflection document
+	some source code or this reflection document
